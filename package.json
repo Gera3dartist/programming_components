@@ -1,0 +1,19 @@
+{
+  "name": "programming_components",
+  "version": "1.0.0",
+  "description": "collection of lab works on programming components",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gera3dartist/programming_components.git"
+  },
+  "author": "Andrii Gerasymchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gera3dartist/programming_components/issues"
+  },
+  "homepage": "https://github.com/Gera3dartist/programming_components#readme"
+}
