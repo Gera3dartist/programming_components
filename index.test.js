@@ -2,6 +2,12 @@ const Calc = require('./calc.js');
 const assert = require('assert');
 
 
-let t = Calc.taylor(1);
 
-assert.equal(t, 10);
+
+describe('Testin calc', function() {
+    let t = Calc.taylor(1);
+    it('should have taylor function defined', function() { assert.equal(typeof Calc.taylor, 'function');});
+    it('should be qual to 10', function() { assert.equal(Calc.taylor(), 10);});
+
+    
+})
