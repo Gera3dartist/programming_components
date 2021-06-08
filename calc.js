@@ -3,7 +3,7 @@ function ataylor(xValue, numberOfIteration=10){
     return sinFromInternet(xValue, numberOfIteration);
 }
 
-function sinFromInternet(x, iterNum) {
+function sinFromInternet(x, iterNum, precission=3) {
     var mxx = -x*x;
     var sin = 1;
     var n = 0;
@@ -14,7 +14,8 @@ function sinFromInternet(x, iterNum) {
         sin = sin + term
     }
     sin = x*sin;
-    return sin;
+
+    return parseFloat(sin).toPrecision(precission);
 
 }
 
