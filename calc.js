@@ -1,5 +1,5 @@
-function taylor(/*in*/ count){
+function ataylor(/*in*/ count){
     return 10;
 }
 
-module.exports.taylor = taylor;
+module.exports.taylor = ataylor;
