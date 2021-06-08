@@ -7,21 +7,9 @@ In order to pass the module you need to prepare and defend the following individ
 * using Github create a project holding application in your favorite programming language.
 The application finds approximate value of a function using Taylor series. The function is:
 
-Variant 1: e^x
+
 Variant 2: sin(x)
-Variant 3: cos(x)
-Variant 4: ln(1+x)
-Variant 5: (1+x)^m
-Variant 6: arctg(x)
-Variant 7: 1/(1-x)
-Variant 8: 1/(1+x)
-Variant 9: sh(x)
-Variant 10: ch(x)
-Variant 11: sqrt(1-x)
-Variant 12: ln((1+x)/(1-x))
-Variant 13: 1/(1-x)^2
-Variant 14: arcsin(x)
-Variant 15: tg(x)
+
 
 * Create a branch named Main holding implementation of the equation having the number of Taylor series members hardcoded to 4. Application version has to be set to 1.0.0.
 
